@@ -22,6 +22,35 @@ a:hover {
 }
 
 /*
+* Code
+*/
+code,
+pre {
+
+}
+
+code {
+	background-color: #f7f7f9;
+	border-radius: 2px;
+	color: #d44950;
+	font-size: 115%;
+	padding: 2px 4px;
+}
+
+pre code {
+	background-color: inherit;
+	border-radius: inherit;
+	color: inherit;
+	font-size: inherit;
+	padding: inherit;
+}
+
+pre {
+	font-size: 120%;
+	line-height: 1.4;
+}
+
+/*
 * Layout
 */
 #wrapper,
@@ -42,6 +71,13 @@ a:hover {
     border-top: solid 1px #fff;
     border-right: solid 1px #fff;
     -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,.8);
+}
+
+/*
+* Wiki
+*/
+.wiki.wiki-page {
+	font-size: 110%;
 }
 
 /*
