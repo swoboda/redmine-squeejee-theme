@@ -538,7 +538,7 @@ table.list tr.issue a:hover {
     text-decoration: none;
 }
 
-/* Table-row colouring by priority (styles provided by Wynn Netherland) */
+/* Table-row colouring by priority (styles provided by Wynn Netherland)
 tr.odd.priority-5, table.list tbody tr.odd.priority-5:hover { color: #900; font-weight: bold; }
 tr.odd.priority-5 { background: #ffc4c4; }
 tr.even.priority-5, table.list tbody tr.even.priority-5:hover { color: #900; font-weight: bold; }
@@ -567,12 +567,12 @@ tr.even.priority-1 { background: #f2faff; }
 tr.priority-1 a { color: #559; }
 tr.odd.priority-1 td, tr.even.priority-1 td { border-color: #add7f3; }
 
-/* Table-row link-colouring by priority (respecting the table-row colouring styles above) */
+/* Table-row link-colouring by priority (respecting the table-row colouring styles above)
 table.list tr.priority-5 a,
 table.list tr.priority-4 a,
 table.list tr.priority-3 a { color: #900; }
 
-table.list tr.priority-1 a { color: #559; }
+table.list tr.priority-1 a { color: #559; } */
 
 /*
 * Progressbars
